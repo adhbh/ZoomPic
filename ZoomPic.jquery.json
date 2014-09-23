@@ -1,0 +1,23 @@
+{
+"name": "ZoomPic",
+"title": "ZoomPic Jquery Plugin",
+"description": "Jquery plugin that zooms the image on mousehover.",
+"keywords": [
+"zoom",
+"image"
+],
+"version": "0.0.1",
+"author": {
+"name": "Adheesh Bhatia",
+"url": "http://adheeshbhatia.in"
+},
+"licenses": [
+{
+"type": "MIT",
+"url": "http://opensource.org/licenses/MIT"
+}
+],
+"dependencies": {
+"jquery": ">=1.5"
+}
+}
