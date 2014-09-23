@@ -1,0 +1,49 @@
+
+<html>
+<head>
+	<title>ZoomPic Jquery Plugin</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/ZoomPic.js"></script>
+	<style type="text/css">
+		body {
+			font-family:'Helvetica', 'Arial', sans-serif;
+		}
+		.title {
+			
+			margin:0px;
+			margin-bottom:20px;
+			font-size:3em;
+		}
+
+		.images {
+			width:620px;
+			padding:5px;
+		}
+		
+		.images>a>img {
+			width:160px;
+			height:160px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".images").ZoomPic();
+		});
+	</script>
+</head>
+<body>
+	<h2 class="title">ZoomPic Jquery Plugin</h2>
+		<div class="images">
+			<a href="#"><img src="https://c4.staticflickr.com/4/3282/13039728745_7665416040_c.jpg" ></a>
+			<a href="#"><img src="https://c2.staticflickr.com/8/7325/12412891403_129fe43bdd_b.jpg" ></a>
+			<a href="#"><img src="https://c2.staticflickr.com/8/7357/12326146995_23732a8e42.jpg" ></a>
+			<a href="#"><img src="https://c2.staticflickr.com/4/3831/11952129525_e498f6fdaf_c.jpg" ></a>
+			<a href="#"><img src="https://c1.staticflickr.com/3/2880/11734862056_d9eb88c0f2_c.jpg" ></a>
+		
+		
+		</div>
+		<p>Images by  <a href="https://www.flickr.com/photos/bawejakunal">Kunal Baweja</a></p>
+</body>
+
+</html>
