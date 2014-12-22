@@ -1,6 +1,6 @@
-ZoomsPic
+ZoomPic
 =======
 
-Jquery plugin that zoom the image on mousehover.
+Jquery plugin that zooms the image on mousehover.
 
 
